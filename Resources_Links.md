@@ -22,7 +22,15 @@
 
 关于github的使用:
 ===
+## 1.关于working direction, local repo and remote repo<br>
 
+"Strictly speaking the Git repo is the .git directory; the directory that contains that (with all the files you are working on) is the “working directory” and is usually what people think of as the repo’s name. Locally, you can change its name at will — the repo (the actual data inside .git) holds no important references to it.
+
+If you run git remote -v you will see the name of the directory that you cloned from, so in a sense that’s the name of the repo too. But that name isn’t any more intrinsic than the local one.
+
+So the short answer of how to get the name of your local Git repo is, pwd from the root of your working directory." 
+
+From "https://www.quora.com/How-can-I-get-the-name-of-my-local-Git-repository-to-be-able-to-create-a-remote-repository-with-the-same-name"
 
 关于Markdown语言：
 ===
